@@ -18,19 +18,13 @@
             <li>
               <router-link class="footer-item-link" to="/contact">联系我们</router-link>
             </li>
-            <li class=""><a class="footer-item-link" href="https://www.infidea.cn/jobs/index.jhtml" target="_blank">招聘精英</a></li>
+            <li><a class="footer-item-link" href="http://www.ewytek.cn/jobs/index.jhtml" target="_blank">招聘精英</a></li>
           </ul>
           </transition>
         </li>
         <li class="footer-item">
           <router-link to="/solution" class="footer-item-title">
             <span>解决方案</span>
-            <span class="footer-category-cross"></span>
-          </router-link>
-        </li>
-        <li class="footer-item">
-          <router-link to="/culture" class="footer-item-title">
-            <span>社会责任</span>
             <span class="footer-category-cross"></span>
           </router-link>
         </li>
@@ -43,19 +37,19 @@
       </ul>
       <div class="footer-bottom m-wrapper">
         <ul class="footer-social-list">
-          <li><a href="https://weibo.com/infidea">
-             <img src="https://www.infidea.cn/r/cms/www/default/images/icon/weibo.png"></a>
+          <li><a href="#">
+             <img src="@/assets/weibo.png"></a>
           </li>
           <li><span @click="handleShowCode" class="footer-social-weixin">
-             <img src="https://www.infidea.cn/r/cms/www/default/images/icon/weixin.png"></span>
+             <img src="@/assets/weixin.png"></span>
              <div class="footer-social-qrcode" v-show="seen">
-               <img src="https://www.infidea.cn/r/cms/www/default/images/weixin-code.jpg" />
+               <img src="@/assets/weixin-code.jpg" />
              </div>
           </li>
         </ul>
-        <p class="footer-copyright">Copyright © 2018 Infidea 英飞创想 版权所有</p>
+        <p class="footer-copyright">Copyright © 2018 易维泰克 版权所有</p>
         <div class="footer-record">
-          <a href="http://www.miitbeian.gov.cn/" target="_blank">京ICP备16017313号-3</a></div>
+          <a href="http://www.miitbeian.gov.cn/" target="_blank">豫ICP备17035464号-1</a></div>
       </div>
     </div>
   </div>

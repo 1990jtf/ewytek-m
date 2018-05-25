@@ -6,7 +6,7 @@
         <span class="control-icon"></span>
         <span class="control-icon"></span>
       </a>
-      <div class="navbar-logo">
+      <div class="navbar-logo" @click="handleHideSlide">
         <router-link to="/" class="navbar-logo-icon"></router-link>
       </div>
     </div>
@@ -17,11 +17,10 @@
               <router-link :to='item.url'>{{item.name}}</router-link>
             </li> -->
             <li class="navbar-content-item"><router-link to='/company'>关于我们</router-link></li>
-            <li class="navbar-content-item"><router-link to='/solution'>产品</router-link></li>
+            <!--<li class="navbar-content-item"><router-link to='/solution'>产品</router-link></li>-->
             <li class="navbar-content-item"><router-link to='/solution'>解决方案</router-link></li>
-            <li class="navbar-content-item"><a href="http://feifei.infidea.cc" target="_blank">飞飞到家</a></li>
-            <li class="navbar-content-item"><router-link to='/company'>服务与支持</router-link></li>
-            <li class="navbar-content-item"><router-link to='/company'>社会责任</router-link></li>
+            <li class="navbar-content-item"><router-link to='/contact'>服务与支持</router-link></li>
+            <!--<li class="navbar-content-item"><router-link to='/contact'>联系我们</router-link></li>-->
           </ul>
       </div>
     </transition>
@@ -41,6 +40,12 @@ export default {
   methods: {
     handleShowMore () {
       this.seen = !this.seen
+    },
+    // 当点击logo时候，隐藏侧边栏
+    handleHideSlide () {
+      if (this.seen) {
+        this.seen = !this.seen
+      }
     }
   }
 }
@@ -83,7 +88,7 @@ export default {
         vertical-align middle
         // background #999999
         .navbar-logo-icon
-          background-image url('~@/assets/infidea-logo-m.png')
+          background-image url('~@/assets/ewytek-logo-m.png')
           display: block;
           width 200px
           height 52px

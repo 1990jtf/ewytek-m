@@ -3,15 +3,15 @@
     <nav-bar></nav-bar>
     <banner></banner>
     <div class="contact-content m-wrapper">
-      <p>市场合作: marketing@infidea.cn</p>
+      <p>市场合作: ewytek@163.com</p>
       <br/>
-      <p>媒体联系: pr@infidea.cn</p>
+      <p>媒体联系: ewytek@163.com</p>
       <br/>
-      <p>CEO邮箱: pony@infidea.cn</p>
+      <p>CEO邮箱: 15043153@qq.com</p>
       <br/>
-      <p>联系电话: 010-86463003/88608008</p>
+      <p>联系电话: 136-7337-2775</p>
       <br/>
-      <p>地址: 北京市朝阳区广渠路28号院401号楼</p>
+      <p>地址: 郑州市中原区升龙金中环B座1306室</p>
     </div>
     <foot></foot>
   </div>

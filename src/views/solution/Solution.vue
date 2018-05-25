@@ -6,25 +6,41 @@
       <ul class="plans clear-fix">
         <li class="hover-boxshadow">
           <a href="javasrcipt:;">
-            <h3 class="title">聚合支付解决方案</h3>
+            <h3 class="title">工程造价咨询管理系统</h3>
             <div class="pic">
-              <img class="plan-img" src="@/assets/plans/plan-juhe.jpg" alt="">
+              <img class="plan-img" src="http://www.ewytek.cn/u/cms/www/201805/12003145mmg8.png" alt="">
             </div>
           </a>
         </li>
         <li class="hover-boxshadow">
           <a href="javasrcipt:;">
-            <h3 class="title">SDK解决方案</h3>
+            <h3 class="title">微信群发工具</h3>
             <div class="pic">
-              <img class="plan-img" src="@/assets/plans/plan-sdk.png" alt="">
+              <img class="plan-img" src="http://www.ewytek.cn/u/cms/www/201805/11234630xf59.png" alt="">
             </div>
           </a>
         </li>
         <li class="hover-boxshadow">
           <a href="javasrcipt:;">
-            <h3 class="title">在线考试系统</h3>
+            <h3 class="title">供应链金融项目</h3>
             <div class="pic">
-              <img class="plan-img" src="@/assets/plans/plan-kaoshi.png" alt="">
+              <img class="plan-img" src="http://www.ewytek.cn/u/cms/www/201805/230900151pt8.jpg" alt="">
+            </div>
+          </a>
+        </li>
+        <li class="hover-boxshadow">
+          <a href="javasrcipt:;">
+            <h3 class="title">共享经济系统</h3>
+            <div class="pic">
+              <img class="plan-img" src="http://www.ewytek.cn/u/cms/www/201805/12090649hx7l.png" alt="">
+            </div>
+          </a>
+        </li>
+        <li class="hover-boxshadow">
+          <a href="javasrcipt:;">
+            <h3 class="title">驾驶员满分学习系统</h3>
+            <div class="pic">
+              <img class="plan-img" src="http://www.ewytek.cn/u/cms/www/201805/12085503u3xh.png" alt="">
             </div>
           </a>
         </li>
@@ -49,14 +65,6 @@
             <h3 class="title">ERP企业资源管理系统</h3>
             <div class="pic">
               <img class="plan-img" src="@/assets/plans/plan-erp.png" alt="">
-            </div>
-          </a>
-        </li>
-        <li class="hover-boxshadow">
-          <a href="javasrcipt:;">
-            <h3 class="title">视频直播解决方案</h3>
-            <div class="pic">
-              <img class="plan-img" src="@/assets/plans/plan-zhibo.jpg" alt="">
             </div>
           </a>
         </li>

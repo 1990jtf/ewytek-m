@@ -3,11 +3,11 @@
     <nav-bar></nav-bar>
     <banner></banner>
     <div class="culture-content m-wrapper">
-      <h4>使命：</h4>
-      <p>通过技术方式为人们节省时间，让他们有更多时间做想做的事。</p>
+      <p>奉行“诚信、共享” 的企业文化</p>
       <br/>
-      <h4>价值观：</h4>
-      <p>客户第一、团队合作、诚实正直，创新。</p>
+      <p>奉行“热情、高效”的服务理念</p>
+      <br/>
+      <p>奉行“求实、创新、极简”的设计理念</p>
     </div>
     <foot></foot>
   </div>
